@@ -1,0 +1,173 @@
+@import "recipesbackground.css";
+@import "homebackground.css";
+
+
+
+.recipe-index-heading{
+
+font-size: 16px;
+letter-spacing: 2px;
+position: relative;
+margin-bottom: 25px;
+line-height: 15px;
+color: #888;
+text-transform: uppercase;
+    
+}
+
+h3 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+   
+
+}
+
+h4{
+
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.recipes-card:hover {
+   
+      filter: contrast(100%);
+   
+  }
+
+/***
+.categorie-name {
+    display: flex;
+}
+
+.categorie-name:after {
+    display: block;
+    content: " ";
+    border-bottom: 1px solid;
+    
+    color: #888;
+
+}
+.recipes-card{
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+    
+}*/
+
+.search{
+    display: inline-block;
+    
+    padding: 50px 15px;
+
+}
+input.search-form {
+    border: 1px solid #d5d5d5;
+    border-right: 0;
+    border-radius: 0;
+    height: 40px;
+    font-size: 16px;
+    color: #111111;
+    position: relative;
+    flex: 1 1 auto;
+    width: 50%;
+    margin-bottom: 0;
+}
+button.search-button{
+padding-top: 15px;
+   display: inline-block;
+    cursor: pointer;
+    position: relative;;
+}
+
+.recipes-card .thumb {
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center center;
+    transition: all .1s ease-in;
+  }
+.recipes-card{
+
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr );
+
+  
+    
+}
+
+
+.recipes-card li {
+    border: 1px solid palevioletred; /*#ffe066 */
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+   
+  }
+  
+  .thumb:hover {
+   
+      filter: contrast(70%);
+    }
+    .recipes-card a{
+       text-decoration: none;
+        
+    }
+
+.categorie-name:after
+{
+    content:       " \00a0";
+    border-bottom: solid 1px  #888;
+    position: absolute;     
+    top:           0;
+    width:         64%;
+    margin-left:   18px;
+
+}
+
+@media (min-width: 500px ) and (max-width: 688px ){
+
+    .categorie-name:after
+    {
+        content:       " \00a0";
+        border-bottom: solid 1px  #888;
+        position: absolute;     
+        top:           0;
+        width:         50%;
+        margin-left:   20px;
+    
+    }
+
+}
+  
+.flex-item {
+	flex: 0 1 24%;
+}
+
+
+.recipe-index-heading a {
+       
+        position: absolute;
+        right: 0;
+        top: -1px;
+        padding-left: 3px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        top: -10px;
+        color:palevioletred;
+    text-decoration: none;
+    }
+
+
+    
+
+
+
+
+

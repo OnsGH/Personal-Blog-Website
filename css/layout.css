@@ -1,0 +1,24 @@
+.container {
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+      "header"
+      "content"
+      "sidebar"
+      "footer";
+      
+    }
+.content {
+    grid-area: content;
+    padding-right:40px ;
+    padding-bottom: 20px;
+     
+    }
+  .sidebar {
+      grid-area: sidebar;
+      
+    }
+  
+  .main-footer {
+      grid-area: footer;
+    }
