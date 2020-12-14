@@ -70,18 +70,6 @@ button.search-button {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.card1 {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-.recipes-card li {
-    border: 1px solid palevioletred; /*#ffe066 */
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
 
 .thumb:hover {
     filter: contrast(70%);
@@ -110,9 +98,7 @@ button.search-button {
     }
 }
 
-.flex-item {
-    flex: 0 1 24%;
-}
+
 
 .recipe-index-heading a {
     position: absolute;
@@ -133,12 +119,7 @@ button.search-button {
     grid-gap: 5px;
 }
 
-@media only screen and (min-width: 500px) {
-    .wrapper {
-        grid-template-columns: repeat(3, 1fr);
-        grid-row: auto;
-    }
-}
+
 
 .recipe-card {
     display: flex;
