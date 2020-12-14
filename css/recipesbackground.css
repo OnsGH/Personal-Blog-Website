@@ -45,4 +45,9 @@
 #post-22{
     background-image: url(../images/chocolate-pudding.jpg);
 }
+#post-23{
+    background-image: url(../images/winnie.jpg);
+    background-position: top right;
+    display: flex;
+}
 
